@@ -81,7 +81,6 @@ G = '{GREEN}' # PUTIH
 Y = '\033[1;33m' # PUTIH
 Q = '\033[1;37m'
 T = '\033[1;34m'
-HBF = '{ HBF }'
 now = datetime.now()
 dt_string = now.strftime("%H:%M")
 current = datetime.now()
